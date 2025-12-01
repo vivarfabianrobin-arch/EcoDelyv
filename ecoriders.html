@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eco Riders | Únete a la Revolución Verde</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-container">
+    <a href="index_mejorado.html" class="logo-link">
+      <img src="img/logo-ecodelibery.png" alt="Eco Delivery Logo" class="logo-img">
+    </a>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="futurosostenible.html">Futuro Sostenible</a></li>
+        <li><a href="#">Eco Empresa</a></li>
+        <li><a href="ecoriders.html">Eco Riders</a></li>
+        <li><a href="#">Eco Aliados</a></li>
+        <li><a href="index_mejorado.html#contacto">Contáctanos</a></li>
+      </ul>
+    </nav>
+    <a href="ecoriders.html" class="btn btn-primary header-btn">Únete Ahora</a>
+  </div>
+</header>
+
+  <!-- SECCIÓN FORMULARIO ECO RIDERS -->
+  <section class="container" style="margin: 80px auto; text-align: left; max-width: 600px; background: linear-gradient(135deg, #f1f8e9 0%, #e8f5e9 100%); padding: 50px 40px; border-radius: 25px; box-shadow: 0 10px 30px rgba(46,125,50,0.2);">
+    <h2 style="text-align:center; color:#2e7d32; font-size: 2.2rem; margin-bottom: 15px;">Únete como Eco Rider 🌱</h2>
+    <p style="text-align:center; color: #4a7c3a; margin-bottom: 40px; font-size: 1.1rem;">Completa el formulario para unirte a nuestro equipo de entregas sostenibles.</p>
+
+    <form id="ecoRiderForm" style="max-width: 500px; margin: 0 auto;">
+      <label for="nombre" style="color: #2e7d32; font-weight: 600; margin-bottom: 8px; display: block;">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required style="width: 100%; padding: 12px 15px; border: 2px solid #c8e6c9; border-radius: 10px; font-size: 1rem; margin-bottom: 5px; transition: border 0.3s ease;">
+      <small id="error-nombre" style="color:red; display: block; margin-bottom: 15px; min-height: 20px;"></small>
+
+      <label for="edad" style="color: #2e7d32; font-weight: 600; margin-bottom: 8px; display: block;">Edad:</label>
+      <input type="number" id="edad" name="edad" required style="width: 100%; padding: 12px 15px; border: 2px solid #c8e6c9; border-radius: 10px; font-size: 1rem; margin-bottom: 5px; transition: border 0.3s ease;">
+      <small id="error-edad" style="color:red; display: block; margin-bottom: 15px; min-height: 20px;"></small>
+
+      <label for="correo" style="color: #2e7d32; font-weight: 600; margin-bottom: 8px; display: block;">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required style="width: 100%; padding: 12px 15px; border: 2px solid #c8e6c9; border-radius: 10px; font-size: 1rem; margin-bottom: 5px; transition: border 0.3s ease;">
+      <small id="error-correo" style="color:red; display: block; margin-bottom: 15px; min-height: 20px;"></small>
+
+      <label for="password" style="color: #2e7d32; font-weight: 600; margin-bottom: 8px; display: block;">Contraseña:</label>
+      <input type="password" id="password" name="password" required style="width: 100%; padding: 12px 15px; border: 2px solid #c8e6c9; border-radius: 10px; font-size: 1rem; margin-bottom: 5px; transition: border 0.3s ease;">
+      <small id="error-password" style="color:red; display: block; margin-bottom: 25px; min-height: 20px;"></small>
+
+      <button type="submit" class="btn btn-primary" style="width: 100%; padding: 15px; font-size: 1.1rem; margin-top: 10px;">Enviar</button>
+      <p id="mensaje" style="margin-top:20px; font-weight:600; text-align: center; min-height: 25px;"></p>
+    </form>
+  </section>
+
+  <!-- BOTÓN SCROLL TO TOP -->
+  <button id="scrollTop" class="scroll-top" title="Volver arriba">↑</button>
+
+  <footer class="footer" style="margin-top: 80px;">
+    <div class="container footer-container">
+      <p style="text-align: center; color: #c8e6c9;">© 2025 Eco Delivery | Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- Archivos JavaScript -->
+  <script src="ecoriders.js"></script>
+  <script src="jquery-effects.js"></script>
+</body>
+</html>
